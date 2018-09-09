@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Oswald');
+
+* {
+  margin: 0!important;
+  padding: 0!important;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 300%;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+
+nav {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-family: 'Aldrich', sans-serif;
+  padding: 60px 0!important;
+  text-transform: uppercase;
+  line-height: 100%;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  /* margin-top: -3px!important; */
+}
+
+.header {
+  flex-direction: column;
+  padding: 40px 0px!important;
+}
+
+.nav {
+  padding: 0px 18rem!important;
+}
+
+.mainLogo {
+  font-size: 150%;
+}
+
+.menuItem {
+  padding: 0 8px!important;
+}
+
+.slogans {
+  text-align: center;
+  font-size: 330%;
+}
+
+.fstSlogan, .scdSlogan, .soloSlogan {
+  padding: 90px 0!important;
+}
+
+.scdSlogan {
+  background-color: #000;
+  color: #fff;
+}
+
+.banners {
+  text-align: center;
+  background-color: #000;
+}
+
+.bannerOne {
+  background-color: #fff;
+}
+
+.bannerOneLogo {
+  flex-direction: column;
+  height: 60%;
+}
+
+.bannerTwo {
+  background-color: #000;
+  flex-direction: column;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 110px 0px 70px 0px!important;
+}
+
+.bannerTwo div {
+  padding: 0 60px!important;
+  margin-bottom: 40px!important;
+  width: 100%;
+}
+
+.logoWrapper {
+  background-color: #000;
+}
+
+.logo {
+  background-color: #000;
+  color: #fff;
+  flex-direction: column;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 200%;
+  padding: 110px 0 90px 0!important;
+  text-transform: uppercase;
+}
+
+.bannerOneText {
+  padding: 40px 40px 90px 40px!important;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.bright {
+  color: rgb(100, 100, 100);
+}
+
+.theBrightest {
+  color: #fff;
+  font-size: 200%;
+}
+
+.bannerThree {
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.bannerThreeLogo {
+  height: 60%;
+  padding-top: 110px!important;
+}
+
+.logoThree {
+  font-size: 250%;
+  text-transform: uppercase;
+  line-height: 90%;
+}
+
+.bannerThreeText {
+  padding: 40px 40px 90px 40px!important;
+  font-size: 80%;
+  font-weight: bold;
+}
+
+.contactImg {
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
+}
+
+.fstFooter {
+  flex-direction: column;
+}
+
+.secFooter {
+  flex-direction: row;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  padding: 90px 0!important;
+}
+
+.h2 {
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.footerSlogan {
+  font-size: 80%;
+  color: rgb(151, 151, 151);
+}
+
+.fstFooterWrapper .d-flex {
+  margin-bottom: 5px!important;
+  font-size: 80%;
+}
+
+.fstFooterWrapper .d-flex img {
+  margin-right: 10px!important;
+}
+
+.secFooterSection {
+  padding-right: 10px!important;
+}
