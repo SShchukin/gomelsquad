@@ -44,6 +44,7 @@ footer {
 
 .menuItem {
   padding: 0 8px!important;
+  font-size: 90%;
 }
 
 .slogans {
@@ -79,11 +80,10 @@ footer {
   flex-direction: column;
   text-transform: uppercase;
   text-align: center;
-  padding: 110px 0px 70px 0px!important;
+  padding: 110px 60px 70px 60px!important;
 }
 
 .bannerTwo div {
-  padding: 0 60px!important;
   margin-bottom: 40px!important;
   width: 100%;
 }
@@ -182,4 +182,121 @@ footer {
 
 .secFooterSection {
   padding-right: 10px!important;
+}
+
+@media (max-width: 1199.98px) {
+  .mainLogo {
+    margin-top: 50px!important;
+    margin-bottom: 50px!important;
+  }
+
+  header {
+    font-size: 210%;
+  }
+
+  .header {
+    padding: 40px 0px!important;
+  }
+
+  .slogans {
+    font-size: 250%;
+  }
+
+  .logo, .theBrightest {
+    font-size: 130%;
+  }
+
+  .brighter {
+    font-size: 80%;
+    margin-bottom: 40px!important;
+  }
+
+  .bright {
+    font-size: 85%;
+  }
+
+  .logoThree {
+    font-size: 190%;
+  }
+
+  .bannerOneText {
+    padding: 40px 20px 0 20px!important;
+    font-size: 85%;
+  }
+  
+  .bannerThreeText {
+    padding: 40px 20px 0 20px!important;
+    font-size: 85%;
+    line-height: 100%;
+  }
+
+  .bannerTwo {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+  }
+}
+
+@media (max-width: 991.98px) {
+
+  .soloSlogan {
+    box-shadow: inset 230px 0px 0px #000!important;
+  }
+
+  .bright, .bannerOneText, .bannerThreeText {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  header {
+    font-size: 170%;
+  }
+
+  .logo, .theBrightest {
+    font-size: 100%;
+  }
+
+  .slogans {
+    font-size: 150%;
+  }
+
+  .fstSlogan, .scdSlogan, .soloSlogan {
+    padding: 70px 0!important;
+  }
+
+  .soloSlogan {
+    box-shadow: inset 180px 0px 0px #000!important;
+  }
+
+  .mainLogo {
+    font-size: 100%;
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+  }
+
+  .menuItem {
+    font-size: 70%;
+  }
+
+  .bannerTwo {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+  }
+
+  .logoThree {
+    font-size: 150%;
+  }
+
+  .h2 {
+    font-size: 70%;
+  }
+
+  .footerSlogan {
+    font-size: 60%;
+  }
+
+  .adress, .phone, .email {
+    font-size: 60%!important;
+  }
 }
