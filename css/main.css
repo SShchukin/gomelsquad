@@ -343,7 +343,6 @@ footer {
 
   .bannerOne {
     margin-right: -1px!important;
-    box-shadow: inset 30px 0px 0px #000!important;
   }
 
   .bannerOneText {
@@ -365,7 +364,6 @@ footer {
 
   .bannerThree {
     padding-bottom: 40px!important;
-    box-shadow: inset -30px 0px 0px #000, inset 30px 0px 0px #000!important;
   }
 
   .bannerThreeLogo {
